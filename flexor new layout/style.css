@@ -1,7 +1,7 @@
 .container{
     display: flex;
     flex-wrap: wrap !important;
-    width: 1330px !important;
+    width: 1320px !important;
     margin: auto;
 }
 
@@ -30,9 +30,10 @@ justify-content: space-between !important;
 
 /* <============contact styling starts=======> */
 
-.contact-section{
-background-color:#fff;
+.contact--section{
+background-color:#ff5821;
 padding: 20px;
+height:80px;
 width: 1520px;
 justify-content: space-between !important;
 }
@@ -114,7 +115,7 @@ width: 15%;
     display: flex;
     flex-wrap: wrap;
     background-color: bisque;
-    width: 1330px;
+    width: 1320px;
     height: 180px;
     justify-content: space-between;
 }
@@ -139,14 +140,14 @@ width: 15%;
 .about-service{
     background-color: #313030;
     height: 100px;
-    width: 1330px;
+    width: 1320px;
 }
 .service-flex-box{
     display: flex;
     flex-wrap:wrap;
     background-color:#ff5821;
     height:700px ;
-    width: 1330px;
+    width: 1320px;
 }
 .service{
     height: 180px;
@@ -236,7 +237,7 @@ width: 15%;
 .about-team{
     background-color: #313030;
     height: 80px;
-    width: 1300px;
+    width: 1320px;
     padding: 20px;
 }
 .team-flexbox{
@@ -257,5 +258,188 @@ justify-content: space-around !important;
 
 /* <======team section style ends=======> */
 
+/* <========pricing-section style starts======> */
+
+.pricing-section{
+    background-color: #fff;
+    height: 600px;
+    width: 1520px;
+    padding: 20px;
+    margin: 20px;
+}
+.about-pricing{
+    background-color: #39312f;
+    height: 80px;
+    width: 1320px;
+    margin: 20px;
+}
+.pricing-flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    height:450px;
+    width: 1320px;
+    padding: 35px 0;
+    justify-content:center;
+}
+.pricing-details{
+    background-color: #39312f;
+    height: 400px;
+    width: 22%;
+    margin: 20px 10px;
+}
+/* <========pricing section style ends=========> */
+
+/* <=======FAQ section style starts=======> */
+
+.FAQ-section{
+    background-color: #fff;
+    height: 600px;
+    width: 1520px;
+    padding:20px
+}.about-FAQ{
+    background-color: #39312f;
+    height: 80px;
+    width: 1320px;
+    margin: 20px;
+}
+.FAQ{
+    background-color:#ff5821;
+    height: 100px;
+    width: 1320px;
+    margin: 20px;
+}
+
+/* <=======FAQ section style ends========>*/
+
+/* <=========contact section style starts=======> */
+
+.contact-section{
+    background-color:#313030;
+    height:1000px;
+    width: 1520px;
+    padding: 20px;
+    margin: 200px 0 0 0;
+}
+.about-contact{
+    background-color:#ff5821;
+    height: 80px;
+    width: 1320px;
+}
+.contact-flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    height:900px;
+    width: 1320px;
+}
+.address-flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #39312f;
+    height: 190px;
+    width: 1320px;
+    justify-content: space-around;
+    padding: 30px;
+    align-items: center;
+}
+.our-address{
+    background-color:#ff5821;
+    height: 150px;
+    width: 25%;
+    margin: 20px;
+}
+.name-flex{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 1320px;
+    background-color: antiquewhite;
+    margin: 10px;
+    justify-content: space-around;
+}
+.your-name{
+    background-color: #39312f;
+    height: 60px;
+    width: 45%;
+    margin: 20px;
+}
+.your-mail{
+    background-color: #313030;
+    height: 60px;
+    width: 45%;
+    margin: 20px;
+}
+.subject{
+    background-color: #ff5821;
+    height: 60px;
+    width: 1320px;
+    margin: 20px;
+}
+.message{
+    background-color: #39312f;
+    height: 200px;
+    width: 1320px;
+    margin: 20px;
+}
+.send-message-button{
+    background-color: #ff5821;
+    height: 50px;
+    width:20%;
+    margin: 0px 500px;
+    justify-content: center;
+}
+/* <========contact styling end==========> */
 
 
+/* <===========footer section style starts=====> */
+
+.footer-section{
+    background-color: #ff5821;
+    height: 500px;
+    width: 1520px;
+    padding: 20px;
+}
+.footer-flex{
+    display: flex;
+    flex-wrap:wrap ;
+    background-color: #39312f;
+    height: 480px;
+    width: 1320px;
+    margin: 20px 0;
+    justify-content: space-evenly;
+}
+.footer-details{
+    background-color: #ff5821;
+    height: 450px;
+    width: 20%;
+    margin: 20px;
+}
+
+/* <======footer section style ends========> */
+
+/* <========copyright section style starts=====> */
+
+.copyright-section{
+background-color: #39312f;
+height: 150px;
+width: 1520px;
+}
+.copyright-flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1320px;
+    justify-content: space-between;
+}
+.copyright-info{
+    background-color:#ff5821 ;
+    height: 80px;
+    width: 25%;
+    margin: 20px;
+}
+.social-media-icons{
+    background-color: #ff5821;
+    height: 80px;
+    width: 25%;
+    margin: 20px;
+}
