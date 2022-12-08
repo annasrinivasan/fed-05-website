@@ -1,0 +1,331 @@
+/* commmon grid style */
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.row > * {
+  width: 100%;
+  padding: 0 15px;
+}
+.col-lg-1 {
+  width: 8.33%;
+}
+.col-lg-2 {
+  width: 16.66%;
+}
+.col-lg-3 {
+  width: 25%;
+}
+.col-lg-4 {
+  width: 33.33%;
+}
+.col-lg-5 {
+  width: 41.66%;
+}
+.col-lg-6 {
+  width: 50%;
+}
+.col-lg-7 {
+  width: 58.33%;
+}
+.col-lg-8 {
+  width: 66.66%;
+}
+.col-lg-9 {
+  width: 75%;
+}
+.col-lg-10 {
+  width: 83.33%;
+}
+.col-lg-11 {
+  width: 91.66%;
+}
+.col-lg-12 {
+  width: 100%;
+}
+.justify-content-start {
+  justify-content: flex-start !important;
+}
+.justify-content-end {
+  justify-content: flex-end !important;
+}
+.justify-content-around {
+  justify-content: space-around !important;
+}
+.justify-content-between {
+  justify-content: space-between !important;
+}
+.justify-content-evenly {
+  justify-content: space-evenly !important;
+}
+.align-items-start {
+  align-items: flex-start !important;
+}
+.align-items-end {
+  align-items: flex-end !important;
+}
+.align-items-center {
+  align-items: center !important;
+}
+.align-items-baseline {
+  align-items: baseline !important;
+}
+
+/* contact info starts */
+.header-top {
+  background-color: #fff;
+  border-bottom: solid 1px #ff5821;
+}
+.header-info {
+  background-color: #39312f;
+  padding: 5px 0;
+}
+.contact-info {
+  height: 30px;
+  background-color: #ff5821;
+}
+.info-btn {
+  background-color: #ff5821;
+  height: 100%;
+}
+.navsection {
+  padding: 5px 0;
+  background-color: #fff;
+}
+h1.logo {
+  background-color: #39312f;
+  height: 50px;
+}
+.navbar {
+  background-color: #39312f;
+  height: 50px;
+}
+
+/*<========== banner style starts=================> */
+.banner-section {
+  background-color: #39312f;
+  padding: 100px 0;
+}
+.banner-content {
+  background-color: #ff5821;
+  height: 300px;
+  width: 50%;
+}
+/* <=======banner style ends======> */
+
+/* <======why choose style=====> */
+.why-choose-section {
+  background-color: #ff5821;
+  padding: 20px 0;
+  position: relative;
+  top: -80px;
+}
+.why-choose {
+  background-color: #39312f;
+  height: 350px;
+}
+.choose-items {
+  background-color: #39312f;
+  height: 250px;
+}
+/* <=========why choose ends========> */
+
+/* <=======about style starts=====> */
+
+.about-section {
+  background-color: #39312f;
+  padding: 80px 0;
+}
+.about-image {
+  background-color: #ff5821;
+  height: 400px;
+}
+.about-content {
+  background-color: #ff5821;
+  height: 400px;
+}
+/* <========about section ends====> */
+
+/* <=======client-logo section starts====> */
+.client-logo-section {
+  background-color: #ff5821;
+  padding: 80px 0;
+}
+.client-logo {
+  background-color: #39312f;
+  height: 20px;
+}
+/* <=======client-logo section starts====> */
+
+/* <=======service-section style section starts====> */
+.service-section {
+  background-color: #39312f;
+  padding: 100px 0;
+}
+.section-title {
+  background-color: #ff5821;
+  height: 60px;
+}
+.service-items {
+  background-color: #ff5821;
+  height: 250px;
+  margin-top: 60px;
+}
+/* <========service section ends=====> */
+
+/* <=======portfolio section style starts=======> */
+
+.mission-section {
+  background-color: #ff5821;
+  padding: 80px 0;
+}
+.mission-img {
+  background-color: #39312f;
+  height: 300px;
+  margin: 20px 10px;
+}
+/* <=========portfolio section ends======> */
+
+/* <========customer review section starts======> */
+.customer-review-section {
+  background-color: #39312f;
+  padding: 80px 0;
+}
+.customer-review-content {
+  background-color: #ff5821;
+  width: 100%;
+  height: 200px;
+}
+/* <========customer review section ends======> */
+
+/* <========portfolio-section starts======> */
+.portfolio-section {
+  background-color: #ff5821;
+  padding: 100px 0;
+}
+.portfolio-content {
+  background-color: #39312f;
+  height: 80px;
+}
+.portfolio-img {
+  background-color: #39312f;
+  height: 250px;
+  margin-top: 60px;
+}
+/* <========portfolio-section ends======> */
+
+/* <=========team section style starts==========> */
+.team-section {
+  background-color: #39312f;
+  padding: 80px 0;
+}
+.about-team {
+  background-color: #ff5821;
+  height: 60px;
+}
+.team-img {
+  background-color: #ff5821;
+  height: 250px;
+  margin-top: 60px;
+}
+/* <=======pricing section starts========> */
+
+.pricing-section {
+  background-color: #ff5821;
+  padding: 80px 0;
+}
+.about-pricing {
+  background-color: #39312f;
+  height: 80px;
+}
+.pricing-category {
+  background-color: #39312f;
+  height: 400px;
+  margin-top: 60px;
+}
+
+/* <=======pricing section starts========> */
+
+/* <==========FAQ section style starts========> */
+.FAQ-section {
+  background-color: #39312f;
+  padding: 80px 0;
+}
+.FAQ-intro {
+  background-color: #ff5821;
+  height: 100px;
+}
+.FAQ {
+  background-color: #ff5821;
+  height: 80px;
+  margin-top: 50px;
+}
+
+/* <==========FAQ section style starts========> */
+
+/* <=========contact section starts====> */
+
+.contact-section {
+  background-color: #ff5821;
+  padding: 80px;
+}
+.contact-intro {
+  background-color: #39312f;
+  height: 80px;
+  width: 100%;
+}
+.our-address {
+  background-color: #39312f;
+  height: 150px;
+  width: 100%;
+  margin: 50px 20px;
+}
+.yourname {
+  background-color: #39312f;
+  height: 80px;
+  width: 100%;
+  margin: 50px 20px;
+}
+.subject {
+  background-color: #39312f;
+  height: 100px;
+  width: 100%;
+  margin: 50px 20px;
+}
+.message {
+  background-color: #39312f;
+  height: 200px;
+  width: 100%;
+  margin: 50px 20px;
+}
+/* <===CONTACT styling ends=====>*/
+
+/* <==========footer styling starts=========>*/
+.footer-section {
+  background-color: #39312f;
+  padding: 80px 0;
+}
+.flexor-address {
+  background-color: #ff5821;
+  height: 350px;
+  margin-top: 50px;
+}
+/* <==========footer styling starts=========>*
+
+/*<========= copyright stylin starts========> */
+.copyright-section {
+  background-color: #ff5821;
+  padding: 30px;
+}
+.copyright-info {
+  background-color: #39312f;
+  height: 60px;
+  width: 100%;
+}
