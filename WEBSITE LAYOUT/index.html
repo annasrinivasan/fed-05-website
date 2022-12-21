@@ -2,17 +2,19 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>website layout</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" type="text/css" href="css/reset.css" />
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/font-awesome.min.css">
+  <link rel="stylesheet" href="./fonts/icofont.min.css">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
@@ -23,13 +25,19 @@
         <div class="row justify-content-between">
           <div class="col-lg-6">
             <div class="contact-info">
-
+              <span>
+                <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> contact@example.com
+                </a>
+              </span>
+              <span>
+                <i class="fa fa-mobile"></i>+1 5589 55488 55
+              </span>
             </div>
           </div>
-          <div class="col-lg-3">
-            <div class="info-btn">
-
-            </div>
+          <div class="col-lg-3 text-right">
+            <a class="btn info-btn">
+              Get started
+            </a>
           </div>
         </div>
       </div>
@@ -37,15 +45,26 @@
     <!-- navigation section -->
     <div class="navsection">
       <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
           <div class="col-lg-3">
             <h1 class="logo">
-
+              <a href="#">Flexor</a>
             </h1>
           </div>
           <div class="col-lg-9">
             <nav class="navbar">
+              <ul class="menubar">
+                <li class="nav-link"><a href="#" class="active">Home</a> </li>
+                <li class="nav-link"><a href="#">About</a> </li>
+                <li class="nav-link"><a href="#">Services</a> </li>
+                <li class="nav-link"><a href="#">Portfolio</a> </li>
+                <li class="nav-link"><a href="#">Team</a> </li>
+                <li class="nav-link"><a href="#">Pricing</a> </li>
+                <li class="nav-link"><a href="#">Blog</a> </li>
+                <li class="nav-link"><a href="#">Dropdown</a> </li>
+                <li class="nav-link" N><a href="#">Contact</a> </li>
 
+              </ul>
             </nav>
           </div>
         </div>
@@ -59,7 +78,12 @@
   <section class="banner-section">
     <div class="container">
       <div class="banner-content">
-
+        <H1>Welcome to Flexor</H1>
+        <P> We are team of talented designers making websites with Bootstrap</P>
+        <span class="bnr-button">
+          <a href="#" class="btn">Get started</a>
+          <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </span>
       </div>
     </div>
   </section>
@@ -71,21 +95,35 @@
       <div class="row  align-items-center">
         <div class="col-lg-4">
           <div class="why-choose">
-
+            <h2> Why Choose Flexor for your company website?</h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel
+              necessitatibus optio ad corporis.</p>
+            <a href="#">Learn more<i class="fa fa-angle-right" aria-hidden="true"></i></a>
           </div>
         </div>
         <div class="col-lg-8">
           <div class="row">
             <div class="col-lg-4">
               <div class="choose-items">
+                <i class="fa fa-file-text" aria-hidden="true"></i>
+                <h3>
+                  Corporis voluptates sit</h3>
+                <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
               </div>
             </div>
             <div class="col-lg-4">
               <div class="choose-items">
+                <i class="fa fa-cube" aria-hidden="true"></i>
+                <h3>Ullamco laboris ladore pan</h3>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
               </div>
             </div>
             <div class="col-lg-4">
               <div class="choose-items">
+                <i class="fa fa-picture-o" aria-hidden="true"></i>
+                <h3>Labore consequatur</h3>
+                <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
               </div>
             </div>
           </div>
@@ -99,13 +137,52 @@
   <section class="about-section">
     <div class="container">
       <div class="row">
-        <div class="col-lg-5">
-          <div class="about-image">
-
+        <div class="col-lg-5 about-image">
+          <div class="play-butn">
+            <i class="fa fa-play" aria-hidden="true"></i>
           </div>
         </div>
         <div class="col-lg-7">
           <div class="about-content">
+            <h5>About us</h5>
+            <h2>Enim quis est voluptatibus aliquid consequatur fugiat</h2>
+            <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima
+              temporibus
+              laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam sint et id nulla
+              tenetur. Suscipit aut voluptate.</p>
+            <div class="about-items">
+              <div class="abt-icons">
+                <i class="icofont-finger-print"></i>
+              </div>
+              <div class="abt-items-txt">
+                <h3> Lorem Ipsum</h3>
+                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
+                  non
+                  provident</p>
+              </div>
+            </div>
+            <div class="about-items">
+              <div class="abt-icons">
+                <i class="icofont-gift"></i>
+              </div>
+              <div class="abt-items-txt">
+                <h3>Nemo Enim</h3>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                  deleniti
+                  atque</p>
+              </div>
+            </div>
+            <div class="about-items">
+              <div class="abt-icons">
+                <i class="icofont-atom"></i>
+              </div>
+              <div class="abt-items-txt">
+                <h3>Dine Pad</h3>
+                <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus
+                  aut
+                  eligendi omnis</p>
+              </div>
+            </div>
 
           </div>
         </div>
@@ -118,26 +195,45 @@
   <!-- <======client logo section starts====> -->
   <section class="client-logo-section">
     <div class="container">
-      <div class="row">
-        <div class="c0l-lg-2">
-          <div class="client-logo"></div>
-        </div>
-        <div class="c0l-lg-2">
-          <div class="client-logo"></div>
-        </div>
-        <div class="c0l-lg-2">
+      <div class="row align-items-center">
+        <div class="col-lg-2">
           <div class="client-logo">
+            <img src="./images/client-1.png" alt="client1">
           </div>
         </div>
-        <div class="c0l-lg-2">
-          <div class="client-logo"></div>
+        <div class="col-lg-2">
+          <div class="client-logo">
+            <img src="./images/client-2.png" alt="client2">
+          </div>
         </div>
-        <div class="c0l-lg-2">
-          <div class="client-logo"></div>
+        <div class="col-lg-2">
+          <div class="client-logo">
+            <img src="./images/client-3.png" alt="client3">
+          </div>
         </div>
-        <div class="c0l-lg-2">
-          <div class="client-logo"></div>
+        <div class="col-lg-2">
+          <div class="client-logo">
+            <img src="./images/client-4.png" alt="client4">
+          </div>
         </div>
+        <div class="col-lg-2">
+          <div class="client-logo">
+            <img src="./images/client-5.png" alt="client5">
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="client-logo">
+            <img src="./images/client-6.png" alt="client6">
+          </div>
+        </div>
+      </div>
+      <div class="circle">
+        <span></span>
+        <span></span>
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
     </div>
   </section>
@@ -146,30 +242,67 @@
   <!-- <======service section starts====> -->
   <section class="service-section">
     <div class="container">
-      <div class="section-title"></div>
+      <div class="section-title">
+        <h2>Services</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+          consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+          in iste officiis commodi quidem hic quas.</p>
+      </div>
       <div class="row">
         <div class="col-lg-4">
           <div class="service-items">
+            <div class="service-icons"> <i class="fa fa-briefcase" aria-hidden="true"></i>
+            </div>
+            <h3>LOREM IPSUM</h3>
+            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+              provident</p>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="service-items">
+            <div class="service-icons">
+              <i class="fa fa-list-alt" aria-hidden="true"></i>
+            </div>
+            <h3>DOLOR SITEMA</h3>
+            <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad
+              limino ata</p>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="service-items">
+            <div class="service-icons"> <i class="fa fa-signal" aria-hidden="true"></i>
+            </div>
+            <h3>SED UT PERSPICIATIS</h3>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="service-items">
+            <div class="service-icons">
+              <i class="fa fa-binoculars" aria-hidden="true"></i>
+            </div>
+            <h3>MAGNI DOLORES</h3>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+              laborum</p>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="service-items">
+            <div class="service-icons"><i class="fa fa-sun-o" aria-hidden="true"></i>
+            </div>
+            <h3>NEMO ENIM</h3>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
+              atque</p>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="service-items">
+            <div class="service-icons">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+            </div>
+            <h3>EIUSMOD TEMPOR</h3>
+            <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est
+              eligendi</p>
           </div>
         </div>
       </div>
@@ -185,24 +318,58 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <div class="mission-img">
+          <div class="mission-img bg-1">
+            <div class="mission-content">
+              <h3>Our Mission</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua.
+              </p>
 
+              <i class="fa fa-arrow-right" aria-hidden="true"></i><a href="#">
+                read more
+              </a>
+            </div>
           </div>
+
         </div>
         <div class="col-lg-6">
-          <div class="mission-img">
+          <div class="mission-img bg-2">
+            <div class="mission-content">
+              <h3>Our Plan</h3>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem.</p>
 
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              <a href="#">
+                read more
+              </a>
+            </div>
           </div>
+
         </div>
         <div class="col-lg-6">
-          <div class="mission-img">
+          <div class="mission-img bg-3">
+            <div class="mission-content">
+              <h3>Our Vision</h3>
+              <p>Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores.</p>
 
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              <a href="#">
+                read more
+              </a>
+            </div>
           </div>
+
         </div>
         <div class="col-lg-6">
-          <div class="mission-img">
+          <div class="mission-img bg-4">
+            <div class="mission-content">
+              <h3>Our Care</h3>
+              <p>Nostrum eum sed et autem dolorum perspiciatis. Magni porro quisquam laudantium voluptatem.</p>
 
+              <i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="#">read more
+              </a>
+            </div>
           </div>
+
         </div>
       </div>
     </div>
@@ -214,8 +381,25 @@
   <section class="customer-review-section">
     <div class="container">
       <div class="customer-review-content">
+        <div class="customer-img">
+          <img src="./images/testimonials-3.jpg" alt="jena karlis">
+        </div>
+        <div class="customer-review">
+          <h3>Jena Karlis</h3>
+          <h5>Store Owner</h5>
+          <p><i class="icofont-quote-left"></i>Enim nisi quem export duis labore cillum quae magna enim sint quorum
+            nulla quem veniam duis minim tempor
+            labore quem eram duis noster aute amet eram fore quis sint minim.<i class="icofont-quote-right"></i></p>
+        </div>
 
-
+      </div>
+      <div class="circle ">
+        <span></span>
+        <span></span>
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
     </div>
   </section>
@@ -225,43 +409,152 @@
   <section class="portfolio-section">
     <div class="container">
       <div class="portfolio-content">
-
+        <h2>Portfolio</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+          consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+          in iste officiis commodi quidem hic quas.</p>
       </div>
+      <div class="portfolio-buttons">
+        <a href="#" class="port-links active">all</a>
+        <a href="#" class="port-links">app</a>
+        <a href="#" class="port-links">card</a>
+        <a href="#" class="port-links">web</a>
+      </div>
+
       <div class="row">
         <div class="col-lg-4">
-          <div class="portfolio-img">
+          <div class="portfolio-items">
+            <img src="./images/portfolio-1.jpg" alt="portfolio-1">
+            <div class="portfolio-boxes">
+              <div class="box-text">
+                <h4>App 1</h4>
+                <h6>APP</h6>
+              </div>
+              <div class="port-box-icons">
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="portfolio-img">
+          <div class="portfolio-items">
+            <img src="./images/portfolio-2.jpg" alt="portfolio-1">
+            <div class="portfolio-boxes">
+              <div class="box-text">
+                <h4>WEB 3</h4>
+                <h6>WEB</h6>
+              </div>
+              <div class="port-box-icons">
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="portfolio-img">
+          <div class="portfolio-items">
+            <img src="./images/portfolio-3.jpg" alt="portfolio-1">
+            <div class="portfolio-boxes">
+              <div class="box-text">
+                <h4>App 2</h4>
+                <h6>APP</h6>
+              </div>
+              <div class="port-box-icons">
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="portfolio-img">
+          <div class="portfolio-items">
+            <img src="./images/portfolio-4.jpg" alt="portfolio-1">
+            <div class="portfolio-boxes">
+              <div class="box-text">
+                <h4>CARD 2</h4>
+                <h6>CARD</h6>
+              </div>
+              <div class="port-box-icons">
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="portfolio-img">
+          <div class="portfolio-items">
+            <img src="./images/portfolio-5.jpg" alt="portfolio-1">
+            <div class="portfolio-boxes">
+              <div class="box-text">
+                <h4>WEB2</h4>
+                <h6>WEB</h6>
+              </div>
+              <div class="port-box-icons">
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="portfolio-img">
+          <div class="portfolio-items">
+            <img src="./images/portfolio-6.jpg" alt="portfolio-1">
+            <div class="portfolio-boxes">
+              <div class="box-text">
+                <h4>App 3</h4>
+                <h6>APP</h6>
+              </div>
+              <div class="port-box-icons">
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="portfolio-img">
+          <div class="portfolio-items">
+            <img src="./images/portfolio-7.jpg" alt="portfolio-1">
+            <div class="portfolio-boxes">
+              <div class="box-text">
+                <h4>CARD 1</h4>
+                <h6>CARD</h6>
+              </div>
+              <div class="port-box-icons">
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="portfolio-img">
+          <div class="portfolio-items">
+            <img src="./images/portfolio-8.jpg" alt="portfolio-1">
+            <div class="portfolio-boxes">
+              <div class="box-text">
+                <h4>CARD 3</h4>
+                <h6>CARD</h6>
+              </div>
+              <div class="port-box-icons">
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="portfolio-img">
+          <div class="portfolio-items">
+            <img src="./images/portfolio-9.jpg" alt="portfolio-1">
+            <div class="portfolio-boxes">
+              <div class="box-text">
+                <h4>WEB 3</h4>
+                <h6>WEB</h6>
+              </div>
+              <div class="port-box-icons">
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -273,35 +566,60 @@
   <section class="team-section">
     <div class="container">
       <div class="about-team">
+        <h2>Team</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+          consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+          in iste officiis commodi quidem hic quas.</p>
       </div>
       <div class="row">
         <div class="col-lg-3">
-          <div class="team-img">
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="team-img">
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="team-img">
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="team-img">
+          <div class="team-items">
+            <div class="team-img">
+              <img src="./images/team-1.jpg" alt="walter white img">
+              <div class="team-icons">
+                <a href="#"><i class="icofont-twitter"></i></a>
+                <a href="#"><i class="icofont-facebook"></i></a>
+                <a href="#"><i class="icofont-instagram"></i></a>
+                <a href="#"><i class="icofont-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="team-boxes">
+              <div class="box-text">
+                <h3>Walter White</h3>
+                <h6>Chief Executive Officer</h6>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="col-lg-3">
+      <div class="team-img">
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="team-img">
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="team-img">
+      </div>
+    </div>
+    </div>
+    </div>
     </div>
   </section>
-  <!-- !-- <=======team section starts======> --> -->
+  <!-- !-- <=======team section starts======> -->
 
-  <!-- pricing section starts -->
+  <!--<========= pricing section starts==========> -->
 
   <section class="pricing-section">
     <div class="container">
       <div class="about-pricing">
+        <h2>Pricing</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+          consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+          in iste officiis commodi quidem hic quas.</p>
 
       </div>
       <div class="row">
@@ -327,12 +645,41 @@
   <section class="FAQ-section">
     <div class="container">
       <div class="FAQ-intro">
+        <h2>F.A.Q</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+          consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+          in iste officiis commodi quidem hic quas.</p>
       </div>
-      <div class="FAQ"></div>
-      <div class="FAQ"></div>
-      <div class="FAQ"></div>
-      <div class="FAQ"></div>
-      <div class="FAQ"></div>
+      <div class="FAQ">
+        <h5>Non consectetur a erat nam at lectus urna duis?</h5>
+        <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida.
+          Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+      </div>
+      <div class="FAQ">
+        <h5>Feugiat scelerisque varius morbi enim nunc?
+          Dolor sit amet consectetur adipiscing elit?</h5>
+        <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec
+          ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper
+          dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+      </div>
+      <div class="FAQ">
+        <h5>Dolor sit amet consectetur adipiscing elit?</h5>
+        <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer
+          enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna
+          duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+      </div>
+      <div class="FAQ">
+        <h5>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</h5>
+        <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel
+          risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis
+          blandit turpis cursus in.</p>
+      </div>
+      <div class="FAQ">
+        <h5>Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?</h5>
+        <p>Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc
+          vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in
+          metus vulputate eu scelerisque.</p>
+      </div>
     </div>
   </section>
 
@@ -342,18 +689,32 @@
   <section class="contact-section">
     <div class="container">
       <div class="contact-intro">
+        <h2>Contact</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+          consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+          in iste officiis commodi quidem hic quas.</p>
       </div>
       <div class="row">
         <div class="col-lg-4">
           <div class="our-address">
+            <address>
+              <h3>Our Address</h3>
+              <br>A108 Adam Street, <br>New York,<br> NY 535022
+            </address>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="our-address">
+            <h3>Email Us</h3>
+            <p>info@example.com<br>
+              contact@example.com</p>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="our-address">
+            <h3>Call Us</h3>
+            <p>+1 5589 55488 55<br>
+              +1 6678 254445 41</p>
           </div>
         </div>
       </div>
@@ -378,16 +739,51 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-3">
-          <div class="flexor-address"></div>
+          <div class="flexor-address">
+            <address>
+              <h3>Flexor</h3>
+              A108 Adam Street<br>
+              New York, NY 535022<br>
+              United States<br>
+
+              Phone: +1 5589 55488 55<br>
+              Email: info@example.com
+            </address>
+          </div>
         </div>
         <div class="col-lg-3">
-          <div class="flexor-address"></div>
+          <div class="flexor-address">
+            <h4>Useful Links</h4>
+            <ul>
+              <li>Home</li>
+              <li>About us</li>
+              <li>Services</li>
+              <li> Terms of service</li>
+              <li> Privacy policy</li>
+            </ul>
+          </div>
         </div>
         <div class="col-lg-3">
-          <div class="flexor-address"></div>
+          <div class="flexor-address">
+            <h4>Our Services</h4>
+            <ul>
+              <li>Web Design</li>
+              <li>
+                Web Development</li>
+              <li>
+                Product Management</li>
+              <li>
+                Marketing</li>
+              <li>
+                Graphic Design</li>
+            </ul>
+          </div>
         </div>
         <div class="col-lg-3">
-          <div class="flexor-address"></div>
+          <div class="flexor-address">
+            <h4>Join Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna </p>
+          </div>
         </div>
       </div>
     </div>
@@ -400,7 +796,10 @@
       <div class="container">
         <div class="row justify-between">
           <div class="col-lg-6">
-            <div class="copyright-info"></div>
+            <div class="copyright-info">
+              <p>© Copyright Flexor. All Rights Reserved
+                Designed by BootstrapMade</p>
+            </div>
           </div>
           <div class="col-lg-6">
             <div class="copyright-info"></div>
